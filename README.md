@@ -2,9 +2,12 @@
 Localization project for the ES290 class (Mobile Communications) at CIn/UFPE
 
 
-Regressor1.py - Regressor simples
+Regressor simples
 
-Com fingerprint (n„o precisa rodar fingerprint.py e fpMatchMedicao.py todas as vezes, pois demora muito):
+	- Regressor1.py - utilizando os RSSI como entrada e a LAT/LON como sa√≠da
+
+Com fingerprint (n√£o precisa rodar fingerprint.py e fpMatchMedicao.py todas as vezes, pois demora muito):
+
 	fingerprint.py - gerar grid
 	fp-match-medicao.py - para cada ponto, achar a celula mais proxima
 
@@ -16,8 +19,8 @@ Com fingerprint (n„o precisa rodar fingerprint.py e fpMatchMedicao.py todas as v
 
 
 
-Erros MÈdios:
+Erros M√©dios:
 
-Regressor1.py (Regressor KNN): 145m
-fp-test.py (Fingerprint com regressor KNN): 252m
-fp-classifier.py (Fingerprint com classificador KNN): 180m
+	Regressor1.py (Regressor KNN): 145m
+	fp-test.py (Fingerprint com regressor KNN): 252m
+	fp-classifier.py (Fingerprint com classificador KNN): 180m
